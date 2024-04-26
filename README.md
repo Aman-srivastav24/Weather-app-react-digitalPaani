@@ -1,5 +1,39 @@
 # React + Vite
 
+must install Axios 
+
+npm install -D tailwindcss postcss autoprefixer
+
+npx tailwindcss init -p
+
+
+# Change the tailwind.config.js with the provided code below
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+# change index.css with given code below
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+# Now run these
+
+npm install 
+
+npm run dev
+
+I'm not hiding env file so that you guys easily runs the website.
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
