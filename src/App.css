@@ -1,0 +1,13 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-image: url(../src/assets/cloud-background-cherry-blossoms-mojshsww5h9t5rxq.jpg);
+  background-size: cover;
+ background-position: center;
+  background-repeat: no-repeat; 
+  height: 100vh;
+  
+}
+
